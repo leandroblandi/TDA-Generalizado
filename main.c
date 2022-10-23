@@ -1,3 +1,8 @@
+/*---------------------------
+ | main.c
+ | Authors: LB, DG, JB, MC, LC
+ ----------------------------*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include "elemento.h"

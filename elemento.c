@@ -1,7 +1,7 @@
-/*-----------------------
+/*----------------------------
  | elemento.c
- | Author: Leandro Blandi
- ------------------------*/
+ | Author: LB, DG, JB, MC, LC
+ ----------------------------*/
 
 #include <stdio.h>
 #include <stdlib.h>

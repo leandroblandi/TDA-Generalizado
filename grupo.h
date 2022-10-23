@@ -1,7 +1,7 @@
-/*-----------------------
+/*-----------------------------
  | grupo.h
- | Author: Leandro Blandi
- ------------------------*/
+ | Authors: LB, DG, JB, MC, LC
+ -----------------------------*/
 
 #ifndef GRUPO_H_INCLUDED
 #define GRUPO_H_INCLUDED

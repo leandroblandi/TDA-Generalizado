@@ -1,7 +1,7 @@
-/*-----------------------
+/*----------------------------
  | elemento.h
- | Author: Leandro Blandi
- ------------------------*/
+ | Author: LB, DG, JB, MC, LC
+ ----------------------------*/
 
 #ifndef ELEMENTO_H_INCLUDED
 #define ELEMENTO_H_INCLUDED
