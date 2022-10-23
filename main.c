@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "elemento.h"
+#include "grupo.h"
 
 int main()
 {

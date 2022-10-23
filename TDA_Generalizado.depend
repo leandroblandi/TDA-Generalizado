@@ -4,5 +4,20 @@
 	<stdlib.h>
 	"elemento.h"
 
-1666551343 c:\users\el3be\documents\practicas en c\tda_generalizado\elemento.h
+1666551973 c:\users\el3be\documents\practicas en c\tda_generalizado\elemento.h
+
+1666552030 source:c:\users\el3be\documents\practicas en c\tda_generalizado\elemento.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"elemento.h"
+
+1666553416 source:c:\users\el3be\documents\practicas en c\tda_generalizado\grupo.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"grupo.h"
+	"elemento.h"
+
+1666553249 c:\users\el3be\documents\practicas en c\tda_generalizado\grupo.h
 

@@ -17,6 +17,7 @@ typedef struct _Elemento * Elemento;
 
 Elemento crearElemento(char nombre[20], int ID, int cantidad);
 Elemento crearElementoPorTeclado();
+Elemento inicializarElemento();
 
 /*------------
  | Setters
@@ -35,7 +36,12 @@ char * getNombreElemento(Elemento elemento);
 int getIDElemento(Elemento Elemento);
 int getCantidadElemento(Elemento elemento);
 
-
 void mostrarElemento(Elemento elemento);
+
+/*---------------------------
+ | Procedimientos de archivo
+ ---------------------------*/
+
+void guardarElementos(Elemento elementos[]);
 
 #endif // ELEMENTO_H_INCLUDED

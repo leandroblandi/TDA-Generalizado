@@ -8,6 +8,8 @@
 #include <string.h>
 #include "elemento.h"
 
+#define CANTIDAD_ELEMENTOS 10
+
 struct _Elemento
 {
     char nombre[20];
@@ -51,6 +53,13 @@ Elemento crearElementoPorTeclado()
 
     return crearElemento(nombre, ID, cantidad);
 }
+
+
+Elemento inicializarElemento()
+{
+    return crearElemento("", -1, -1);
+}
+
 
 /*------------
  | Setters
@@ -98,10 +107,37 @@ int getCantidadElemento(Elemento elemento)
 
 void mostrarElemento(Elemento elemento)
 {
-    printf("\nElemento:");
-    printf("\n\t- Nombre: %s", elemento->nombre);
-    printf("\n\t- ID: %d", elemento->ID);
-    printf("\n\t- Cantidad: %d", elemento->cantidad);
+    if(elemento->cantidad != -1)
+    {
+        printf("\nElemento:");
+        printf("\n\t- Nombre: %s", elemento->nombre);
+        printf("\n\t- ID: %d", elemento->ID);
+        printf("\n\t- Cantidad: %d", elemento->cantidad);
+    }
+}
+
+
+/*---------------------------
+ | Procedimientos de archivo
+ ---------------------------*/
+
+void guardarElementos(Elemento elementos[])
+{
+    FILE * archivoElementos = fopen("elementos.txt", "w");
+
+    for(int i = 0; i < CANTIDAD_ELEMENTOS; i++)
+    {
+        if(elementos[i]->cantidad != -1)
+        {
+            fprintf(
+                archivoElementos,
+                "%s+%d+%d\n",
+                elementos[i]->nombre,
+                elementos[i]->ID,
+                elementos[i]->cantidad
+            );
+        }
+    }
 }
 
 
