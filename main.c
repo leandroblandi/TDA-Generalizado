@@ -6,8 +6,19 @@
 int main()
 {
 
-    Elemento elemento = crearElementoPorTeclado();
-    mostrarElemento(elemento);
+    Grupo grupo = crearGrupoPorTeclado();
+
+    inicializarElementosEnGrupo(grupo);
+
+    agregarElementos(grupo, 2);
+
+    mostrarGrupo(grupo);
+
+    ordenarElementosPorID(grupo);
+
+    mostrarGrupo(grupo);
+
+    guardarGrupoYElementos(grupo);
 
     return 0;
 }

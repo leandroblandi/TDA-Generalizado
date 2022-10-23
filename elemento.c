@@ -138,6 +138,7 @@ void guardarElementos(Elemento elementos[])
             );
         }
     }
+    fclose(archivoElementos);
 }
 
 

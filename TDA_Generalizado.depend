@@ -1,23 +1,25 @@
 # depslib dependency file v1.0
-1666551049 source:c:\users\el3be\documents\practicas en c\tda_generalizado\main.c
+1666565306 source:c:\users\el3be\documents\practicas en c\tda_generalizado\main.c
 	<stdio.h>
 	<stdlib.h>
 	"elemento.h"
+	"grupo.h"
 
 1666551973 c:\users\el3be\documents\practicas en c\tda_generalizado\elemento.h
 
-1666552030 source:c:\users\el3be\documents\practicas en c\tda_generalizado\elemento.c
+1666565172 source:c:\users\el3be\documents\practicas en c\tda_generalizado\elemento.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"elemento.h"
 
-1666553416 source:c:\users\el3be\documents\practicas en c\tda_generalizado\grupo.c
+1666565293 source:c:\users\el3be\documents\practicas en c\tda_generalizado\grupo.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"grupo.h"
 	"elemento.h"
 
-1666553249 c:\users\el3be\documents\practicas en c\tda_generalizado\grupo.h
+1666565360 c:\users\el3be\documents\practicas en c\tda_generalizado\grupo.h
+	"elemento.h"
 
