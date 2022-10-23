@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1666551049 source:c:\users\el3be\documents\practicas en c\tda_generalizado\main.c
+	<stdio.h>
+	<stdlib.h>
+	"elemento.h"
+
+1666551343 c:\users\el3be\documents\practicas en c\tda_generalizado\elemento.h
+
