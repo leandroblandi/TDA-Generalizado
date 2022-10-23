@@ -62,6 +62,16 @@ Elemento inicializarElemento()
 
 
 /*------------
+ | Destructor
+ -------------*/
+
+void destruirElemento(Elemento elemento)
+{
+    free(elemento);
+}
+
+
+/*------------
  | Setters
  -------------*/
 

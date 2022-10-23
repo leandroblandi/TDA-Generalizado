@@ -54,6 +54,20 @@ void inicializarElementosEnGrupo(Grupo grupo)
 }
 
 
+/*------------
+ | Destructor
+ -------------*/
+
+void destruirGrupo(Grupo grupo)
+{
+    for(int i = 0; i < CANTIDAD_ELEMENTOS; i++)
+    {
+        destruirElemento(grupo->elementos[i]);
+    }
+    free(grupo);
+}
+
+
 void agregarElementos(Grupo grupo, int cantidadElementos)
 {
 
@@ -195,4 +209,3 @@ void guardarGrupoYElementos(Grupo grupo)
     }
     fclose(archivoGrupo);
 }
-

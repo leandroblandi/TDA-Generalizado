@@ -19,6 +19,13 @@ Elemento crearElemento(char nombre[20], int ID, int cantidad);
 Elemento crearElementoPorTeclado();
 Elemento inicializarElemento();
 
+
+/*------------
+ | Destructor
+ -------------*/
+
+void destruirElemento(Elemento elemento);
+
 /*------------
  | Setters
  -------------*/
@@ -35,6 +42,11 @@ void setCantidadElemento(Elemento elemento, int nuevaCantidad);
 char * getNombreElemento(Elemento elemento);
 int getIDElemento(Elemento Elemento);
 int getCantidadElemento(Elemento elemento);
+
+
+/*------------------------
+ | Funciones de elementos
+ ------------------------*/
 
 void mostrarElemento(Elemento elemento);
 
